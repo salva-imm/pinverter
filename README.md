@@ -10,9 +10,12 @@ before             |  after
 ---
 # how to run
 
+first ,clone this repository:
+`git clone https://github.com/salva-imm/pinverter`
+
 this application is using [`pdf2image`](https://github.com/Belval/pdf2image)
 
-you need to install some dependencies first
+you need to install some dependencies on your system before going further : )
 
 ```
 Windows
