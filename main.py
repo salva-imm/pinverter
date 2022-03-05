@@ -6,7 +6,7 @@ from pdf2image import convert_from_path
 
 def invert(pdf_path):
     with tempfile.TemporaryDirectory() as path:
-        images_from_path = convert_from_path('pdf_path', output_folder=path)
+        images_from_path = convert_from_path(pdf_path, output_folder=path)
         black_and_white_images = []
         for im in images_from_path:
             baw = im.convert('RGB').convert('L')
@@ -17,5 +17,7 @@ def invert(pdf_path):
     black_and_white_images[0].save("out.pdf", save_all=True, append_images=black_and_white_images[1:])
 
 if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        raise IndexError("please provide pdf path in your system")
     pdf_path = sys.argv[1]
     invert(pdf_path=pdf_path)
