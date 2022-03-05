@@ -2,7 +2,7 @@
 ## to save your eyes at night 
 
 <img src="images/Screen Shot 2022-03-05 at 2.18.38 PM.png" alt="before_image" width="400"/>
-<img src="Screen Shot 2022-03-05 at 2.19.19 PM.png" alt="before_image" width="400"/>
+<img src="images/Screen Shot 2022-03-05 at 2.19.19 PM.png" alt="before_image" width="400"/>
 
 ---
 # how to run
