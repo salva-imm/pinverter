@@ -10,7 +10,7 @@ before             |  after
 ---
 # how to run
 
-this application is using `(pdf2image](https://github.com/Belval/pdf2image)`
+this application is using [`pdf2image`](https://github.com/Belval/pdf2image)
 
 you need to install some dependencies first
 
