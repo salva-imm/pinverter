@@ -1,8 +1,10 @@
 # Re-rendering pdf with inverted colors(black-and-white)
 ## to save your eyes at night 
 
-<img src="images/Screen Shot 2022-03-05 at 2.18.38 PM.png" alt="before_image" width="250"/>
-<img src="images/Screen Shot 2022-03-05 at 2.19.19 PM.png" alt="before_image" width="250"/>
+
+before             |  after
+:-------------------------:|:-------------------------:
+<img src="images/Screen Shot 2022-03-05 at 2.18.38 PM.png" alt="before_image" width="250"/>  |  <img src="images/Screen Shot 2022-03-05 at 2.19.19 PM.png" alt="before_image" width="250"/>
 
 ---
 # how to run
